@@ -1,0 +1,30 @@
+EMAILJS TEMPLATE BODY
+=====================
+
+Use this as the EmailJS template content. Keep the EmailJS "To Email" field set to:
+{{recipient_email}}
+
+Email body:
+
+Dear {{to_name}},
+
+Your transaction with Alam Garments has been recorded successfully.
+
+Transaction Details:
+Type: {{transaction_type}}
+Amount: Rs. {{amount}}
+Date: {{date}}
+Reference: {{bill_number}}
+Previous Balance: {{previous_balance}}
+Current Balance: {{current_balance}}
+Description: {{description}}
+
+Thank you for doing business with Alam Garments.
+
+Regards,
+Alam Garments
+
+IMPORTANT:
+- Do NOT write "Rs." before {{previous_balance}} or {{current_balance}}, because those variables already contain "Rs.".
+- Do NOT write "Rs. Rs." before {{amount}}. The template above uses numeric {{amount}} and adds Rs. once.
+- Keep To Email as {{recipient_email}}.

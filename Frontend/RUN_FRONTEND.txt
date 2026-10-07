@@ -1,0 +1,9 @@
+FRONTEND LOCAL RUN
+
+1. cd Frontend
+2. Copy-Item .env.example .env
+3. Set VITE_API_URL=http://localhost:5000/api for local backend.
+4. npm install
+5. npm run dev
+
+For Vercel production set VITE_API_URL to the deployed backend /api URL.

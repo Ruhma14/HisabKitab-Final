@@ -1,0 +1,13 @@
+BACKEND LOCAL RUN
+
+1. cd Backend
+2. Copy-Item .env.example .env
+3. Put your MongoDB Atlas URI in MONGODB_URI.
+4. Set a long random JWT_SECRET.
+5. Set the initial owner phone/PIN.
+6. For production email, set SMTP_HOST/PORT/USER/PASS and MAIL_FROM.
+7. npm install
+8. npm start
+
+Health check:
+http://localhost:5000/api/health
